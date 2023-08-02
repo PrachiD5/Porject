@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <!-- Header section starts -->
+    <header>
+        
+       <div id="menu-bar" class="fas fa-bars"></div>
+
+       <a href="#" class="logo"><span>T</span>ravel</a>
+
+       <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#packages">Packages</a>
+        <!-- <a href="#destination">Destination</a> -->
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+       </nav>
+
+       <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fa-solid fa-user" id="login-btn"></i>
+       </div>
+
+       <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search....">
+        <label for="search-bar" class="fas fa-search"></label>
+       </form>
+    </header>
+    <!-- Header section ends -->
+
+    <!-- Login form container -->
+
+    <div class="login-form-container" id="page">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter Your Email">
+            <input type="password" class="box" placeholder="Enter Your Password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <!-- Home section starts -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Adventure is worthwhile</h3>
+            <p>discover new places with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="vdo">
+            <video src="./vdo and img/vdo1.mp4" id="vdo-container" loop autoplay muted></video>
+        </div>
+    </section>
+
+    <!-- Book section -->
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="./vdo and img/book.avif" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputbox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="Place Name">
+                </div>
+                <div class="inputbox">
+                    <h3>How Many</h3>
+                    <input type="number" placeholder="Number of Passengers">
+                </div>
+                <div class="inputbox">
+                    <h3>Arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputbox">
+                    <h3>Leaving</h3>
+                    <input type="date">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Packages section -->
+
+    <section class="packages" id="packages"> 
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./vdo and img/mumbai.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Mumbai</h3>
+                    <p>Choosing Mumbai as a travel destination is somehow quite obvious. The local Mumbadevi deity inspired 
+                        the city's new name earlier called Bombay. 
+                        Portuguese, British, Maratha, influences have shaped the architecture, demography, culture and creation. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./vdo and img/kerala 2.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Kerala</h3>
+                    <p>Kerala tourism is increasing at a high alarming rate. We can see thousands of tourist flowing to Kerala yearly.
+                        Known for the scenic beauty, natural beauty and other attractions, Kerala tourism never had to look back ever in its growth.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./vdo and img/ladakh.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Ladakh</h3>
+                    <p>Ladakh tourism is famous for its remote culture and monastic traditions, alpine landscape and natural beauty, 
+                        and its friendly people. it is located in India's northern region and is gateway of 
+                        the world's highest mountains, such as K2, Nanga Parbat, and Karakoram region.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./vdo and img/hyderabad.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Hyderabad</h3>
+                    <p>The tourism industry forms an important role in the economy of Hyderabad. Tourism-related fairs are held regularly.
+                        Hyderabad is known as The City of Pearls, as once it was the only global centre for trade of large diamonds, 
+                        emeralds and natural pearls.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./vdo and img/kashmir.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Kashmir</h3>
+                    <p>J&K is home to several valleys such as the Kashmir Valley, Chenab Valley, Sindh Valley and Lidder
+                         Valley. Some major tourist attractions in J&k are Srinagar, Dal Lake and 
+                         Gulmarg, Pahalgam, Bhaderwah, Patnitop and Jammu. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./vdo and img/aasam.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Assam</h3>
+                    <p>One of the most beautiful states of India, Assam is the gateway to  
+                        northeastern part of the country.Assam shares international borders with both Bangladesh and
+                          Bhutan and boasts of its vibrant culture and scenic beauty, as well as its historical significance. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Destination section-->
+
+    <section class="gallery" id="gallery"></section>
+      
+    <!-- Review section -->
+
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper mySwiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./vdo and img/pic3.avif" alt="">
+                        <h3>john deo</h3>
+                        <p>Easy booking friendly service hassle free definitely would recommend and will book our next 
+                            holiday with them again</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div> 
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./vdo and img/pic2.jpg" alt="">
+                        <h3>rosie bensted</h3>
+                        <p>Staff are super efficient, picked up an error regarding travel and hotel check in and emailed me options, so good.
+                            Everything went smoothly as planned, second time we used TravelOnline great special offers that's what
+                             I like value for money with great service.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div> 
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./vdo and img/pic4.avif" alt="">
+                        <h3>david tim</h3>
+                        <p>Very helpful all the way through. Quick response to queries and very polite. 
+                            I don't know that you can improve we were very happy with your service.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div> 
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./vdo and img/pic.avif" alt="">
+                        <h3>henna abel</h3>
+                        <p>Easy to deal with and quick reply's if you have any questions. This is the 3rd overseas 
+                            holiday we have booked through travel online</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div> 
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="./vdo and img/11.avif" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputbox">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                </div>
+
+                <div class="inputbox">
+                    <input type="text" placeholder="Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+
+                <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+
+                <input type="submit" class="btn" value="Send message">
+            </form>
+        </div>
+    </section>
+
+        <!-- footer section -->
+
+        <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>Company Info</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aut magni minima nisi beatae alias obcaecati voluptates blanditiis eveniet iure hic.</p>
+                </div>
+
+                <div class="box">
+                    <h3>Contact</h3>
+                    <div><i class="fa-solid fa-mobile-screen"></i> 123-456-78901</div>
+                    <div><i class="fa-solid fa-location-dot"></i>London, 51 Street, 43</div>
+                    <div><i class="fa-regular fa-clock"></i>Mon - Sat 8.00 - 18.00</div>
+                    <div class="media">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <h3>Recent trips</h3>
+                    <div class="img">
+                        <img src="./vdo and img/beach.avif" alt="">
+                        <img src="./vdo and img/fort.avif" alt="">
+                        <img src="./vdo and img/jaipur.avif" alt="">
+                        <img src="./vdo and img/moun.avif" alt="">
+                        <img src="./vdo and img/taj.avif" alt="">
+                        <img src="./vdo and img/goa.avif" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./Javascript.js"></script>
+</body>
+</html>
